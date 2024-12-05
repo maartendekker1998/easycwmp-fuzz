@@ -242,7 +242,7 @@ static int netlink_init(void)
 	return 0;
 }
 
-int main (int argc, char **argv)
+int notmain (int argc, char **argv)
 {
 	int c;
 	int start_event = 0;

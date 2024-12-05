@@ -1,6 +1,7 @@
 bin_PROGRAMS = easycwmpd
 
 easycwmpd_SOURCES =		\
+    ../src/harness.c    \
 	../src/backup.c		\
 	../src/backup.h		\
 	../src/config.h		\
